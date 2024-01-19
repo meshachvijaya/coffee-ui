@@ -1,5 +1,13 @@
-import Image from "next/image";
+import Slider from "@/components/Slider";
+import FeaturedItem from "@/components/FeaturedItem";
+import Offer from "@/components/Offer";
 
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main>
+      <Slider />
+      <FeaturedItem />
+      <Offer />
+    </main>
+  );
 }
